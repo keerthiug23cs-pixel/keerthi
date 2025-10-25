@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commerce Product Page</title>
+  <link rel="stylesheet" href="keerthi.css" />
+</head>
+<body>
+  <header>
+    <h1>ShopEase</h1>
+    <div class="cart">
+      <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="cart" />
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main class="product-container">
+    <div class="product-image">
+      <img src="keerthi.jpg" alt="Product Image">
+    </div>
+
+    <div class="product-details">
+      <h2>Wireless Headphones</h2>
+      <p class="price">₹2,499</p>
+      <p class="desc">
+        Enjoy high-quality sound with these wireless Bluetooth headphones. Comfortable, stylish, and long battery life.
+      </p>
+
+      <div class="actions">
+        <input type="number" id="quantity" value="1" min="1">
+        <button id="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="cart-section">
+    <h3>Your Cart</h3>
+    <div id="cart-items"></div>
+    <p id="total">Total: ₹0</p>
+  </section>
+
+  <script src="keerthi.js"></script>
+</body>
+</html>
